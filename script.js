@@ -1,5 +1,5 @@
 async function spin() {
-    const response = await fetch('https://rollmeme.github.io/Roll/', {
+    const response = await fetch('https://votre-utilisateur.github.io/votre-repo/spin', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
